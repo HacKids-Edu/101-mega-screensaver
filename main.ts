@@ -4,7 +4,7 @@ function efeito01 () {
         led.plot(0, 4 - x)
         led.plot(4 - x, 4)
         led.plot(4, x)
-        basic.pause(50)
+        basic.pause(randint(8, 15) * velocidade)
         led.unplot(x, 0)
         led.unplot(4 - x, 4)
         led.unplot(0, 4 - x)
